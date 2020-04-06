@@ -1,5 +1,5 @@
 # (S)imple (E)mail (A)ccess (T)ransfer Protocol
-A client+server implementation of a theoretical all-in-one SMTP+IMAP Email Protocol
+A client+server implementation of a theoretical all-in-one SMTP+IMAP Email Protocol. SMTP and IMAP are essentially two halves of what powers email today. This combined protocol is built as a demonstrative thought experiment and as a personal learning exercise after reading the related RFCs for both SMTP and IMAP.
 
 
 This implementation requires the installation of Python3. Specifically, Python 3.4 was used in writing this software. Python 2 is not compatible with this program and even earlier versions of Python 3 may not be compatible. Later versions of Python 3 after Python 3.4 are most likely compatible, but each release version has not been exhaustively tested with this project.
@@ -7,7 +7,8 @@ Python 3.4 can be downloaded from this web URL:
 https://www.python.org/downloads/release/python-340/
 
 
-This implementation can be run within any interface that can read Python files. For example, any IDE that supports Python such as PyCharm would work.
+This implementation can be run within any IDE that can read Python files.
+
 This implementation can also be run at the command line. One needs only to preface the main.py file with the Python 3.4 python.exe, either by referencing the fully qualified path to your Python 3.4 installation directory, or by adding the Python 3.4 python.exe to your Windows PATH. If using Linux, there are multiple ways you could reference it too, such as creating an alias to the python.exe like 'alias python="path/to/python.exe"
 
 Note: This implementation has not been tested on a Linux machine, although there are no Windows dependencies that I am aware of.
