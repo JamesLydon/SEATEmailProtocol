@@ -1,4 +1,4 @@
-# (S)imple (E)mail (A)ccess (Transfer) Protocol
+# (S)imple (E)mail (A)ccess (T)ransfer Protocol
 A client+server implementation of a theoretical all-in-one SMTP+IMAP Email Protocol
 
 
